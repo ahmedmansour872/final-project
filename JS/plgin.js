@@ -17,12 +17,6 @@ $(document).ready(function() {
             $(".scroll_top").hide()
         }
     })
-
-    $('.timer').countTo({form:0,to:35000,speed:2000,refreshInterval: 10,});
-    $('.timer1').countTo({form:0,to:1000,speed:2000,refreshInterval: 10,});
-    $('.timer2').countTo({form:0,to:5000,speed:2000,refreshInterval: 10,});
-    $('.timer3').countTo({form:0,to:3675,speed:2000,refreshInterval: 10,});
-
 });
 
 let x=document.getElementById("super_menu")
@@ -39,3 +33,18 @@ setInterval(function(){
        }
     }
 })
+
+window.onscroll = function(){
+    console.log(window.pageYOffset)
+    if(window.pageYOffset >= 2950){
+        $('.timer').countTo({form:0,to:35000,speed:2000,refreshInterval: 10,});
+        $('.timer1').countTo({form:0,to:1000,speed:2000,refreshInterval: 10,});
+        $('.timer2').countTo({form:0,to:5000,speed:2000,refreshInterval: 10,});
+        $('.timer3').countTo({form:0,to:3675,speed:2000,refreshInterval: 10,});
+    }else{
+        $('.timer').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
+        $('.timer1').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
+        $('.timer2').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
+        $('.timer3').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
+    }
+}

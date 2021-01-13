@@ -2,8 +2,6 @@
     --main_color: #006978;
     --second_color: #0097a7;
     --icon_color: #ebebeb;
-    --hover_color:#006978;
-    --active_color: #0097a7;
     --pra_color:rgba(74, 74, 74, .7);
 }
 
@@ -246,12 +244,12 @@ body{
 }
 
 .navbar-buttom .sup_nav_right ul li a:hover{
-    color: var(--hover_color);
+    color: var(--main_color);
     -webkit-transition: .3s all ease-in-out;
     -moz-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out;
-    border-bottom: 1px solid var(--hover_color);
+    border-bottom: 1px solid var(--main_color);
     padding-bottom: 2px;
 }
 
@@ -346,7 +344,7 @@ margin-right: 50px;
 
 .main_menu .super_menu ul > li:hover a,
 .main_menu .super_menu ul > li:hover .i{
-    color: var(--hover_color);
+    color: var(--main_color);
     -webkit-transition: .3s all ease-in-out;
     -moz-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
@@ -354,7 +352,7 @@ margin-right: 50px;
 }
 
 .main_menu .super_menu ul > li.active a{
-    color: var(--active_color);
+    color: var(--second_color);
 }
 
 /*
@@ -369,7 +367,7 @@ start section sup_menu
     position: absolute;
     top: 80px;
     left: 0;
-    background-color: var(--active_color);
+    background-color: var(--second_color);
     z-index: 9999;
     -webkit-box-shadow: 1px 1px 3px #2c2a2a;
     -moz-box-shadow: 1px 1px 3px #2c2a2a;
@@ -454,7 +452,7 @@ li:hover .sup_menu .unorder_sup_menu li .order{
     position: absolute;
     top: 14px;
     left: -240px;
-    background-color: var(--active_color);
+    background-color: var(--second_color);
     padding: 10px;
     display: none;
     -webkit-box-shadow: 1px 1px 3px #2c2a2a;
@@ -566,7 +564,7 @@ end section sup_menu and sup of sup_menu of big
 
 .navbar .main_menu .nav_toggle .icon{
     font-size: 28px;
-    color: var(--active_color);
+    color: var(--second_color);
     position: absolute;
     top: 8px;
     right: 600px;
@@ -807,7 +805,7 @@ end section sup_menu and sup of sup_menu of big
 }
 
 .news .card .card-body a{
-    color: var(--hover_color);
+    color: var(--main_color);
 }
 
 .news .card .card-body a .card-title {
@@ -1131,7 +1129,7 @@ end section sup_menu and sup of sup_menu of big
 }
 
 .scroll_top:hover{
-    background-color: var(--active_color);
+    background-color: var(--second_color);
 }
 
 .scroll_top:hover .icons{
@@ -1139,7 +1137,7 @@ end section sup_menu and sup of sup_menu of big
 }
 
 .scroll_top .icons{
-    color: var(--active_color);
+    color: var(--second_color);
 }
 
 /* start style section scroll to top*/
@@ -1192,7 +1190,7 @@ end section sup_menu and sup of sup_menu of big
 
 .stats .i{
     font-size: 60px;
-    color: var(--active_color) !important;
+    color: var(--second_color) !important;
 }
 /*  end statistic*/
 
@@ -1214,7 +1212,7 @@ end section sup_menu and sup of sup_menu of big
 }
 
 .contact .soical-media ul li a .icons{
-    color: var(--active_color);
+    color: var(--second_color);
 }
 
 .contact .soical-media ul li:hover{
@@ -1272,7 +1270,7 @@ end section sup_menu and sup of sup_menu of big
     width: 100%;
     clip-path: polygon(-115.5% 0, 113% 0, 76% 100%);
     left: 0;
-    background-color: var(--active_color);
+    background-color: var(--second_color);
     top: 0;
     content: "";
     z-index: -1;
@@ -1317,7 +1315,7 @@ end section sup_menu and sup of sup_menu of big
 }
 
 .ic_color{
-    color:var(--active_color);
+    color:var(--second_color);
     font-size: 25px;
 }
 .footer-con{
@@ -1440,7 +1438,7 @@ end section sup_menu and sup of sup_menu of big
 
 .footer-top .about .title ul li:hover a,
 .footer-top .about .title ul li:hover .i_right {
-    color: var(--active_color);
+    color: var(--second_color);
     -webkit-transition: .5s all ease-in-out;
     -moz-transition: .5s all ease-in-out;
     -o-transition: .5s all ease-in-out;
@@ -1452,7 +1450,7 @@ end section sup_menu and sup of sup_menu of big
 }
 
 .footer-top .about .new input{
-    border:1px solid var(--active_color);
+    border:1px solid var(--second_color);
     padding: 12px;
     width: 80%;
     margin-top: 11px;
@@ -1463,7 +1461,7 @@ end section sup_menu and sup of sup_menu of big
     color: #FFF;;
 }
 .footer-top .about .new button{
-    background-color: var(--active_color);
+    background-color: var(--second_color);
     border: none;
     padding:13px;
     width: 18%;
@@ -1579,3 +1577,91 @@ hr{
 /*end section footer
 */
 
+.resultMain {
+    background-color: #EEE;
+    text-align: right;
+    padding: 20px 0 50px;
+}
+
+.resultMain .result{
+    background-color: #FFF;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+.resultMain .result .h2{
+    font-weight: normal;
+    color: var(--second_color);
+}
+
+.hr{
+    border: 1px solid rgba(0, 0,0, 0.1);
+    margin-bottom: 20px;
+}
+.resultInfo .imageHeader{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.resultInfo .imageHeader .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.resultInfo .imageHeader img{
+    width: 100%;
+    height: 100%;
+}
+
+.resultInfo .imageHeader .h3{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: #FFF;
+    font-size: 2.5rem;
+}
+.resultInfo .imageHeader P{
+    position: absolute;
+    top: 60%;
+    right: 80px;
+    z-index: 2;
+    color: var(--second_color);
+    font-size: 1.2rem;
+}
+@media (max-width: 376px) { 
+    .resultInfo .imageHeader .h3{
+    font-size: 2rem;
+    }
+}
+
+.center{
+    text-align: center;
+}
+
+.center .ah{
+    background-color: var(--second_color);
+    border: 1px solid var(--second_color);
+    width: 250px;
+    padding: 9px 0;
+    color: #FFF;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.center .ah:hover{
+    background-color: #FFF;
+    color: var(--second_color);
+}
