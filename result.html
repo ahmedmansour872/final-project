@@ -23,7 +23,6 @@
     <link rel="icon" href="photo/favicon.ico" type="image/png">
     
     <style>
-       
     </style>
 </head>
 <body>
@@ -715,7 +714,7 @@
                             <div class="form-group row">
                                 <label for="inputEmail4" class="col-md-3 col-form-label">لكليــــــــــــــــة :</label>
                                 <div class="col-md-6">
-                                    <select class="form-control" id="inputEmail4">
+                                    <select class="form-control" id="inputEmail4" required>
                                         <option selected disabled>اختر الكلية</option>
                                         <option>كلية حاسبات ومعلومات</option>
                                         <option>كلية الاثار</option>
@@ -729,7 +728,7 @@
                             <div class="form-group row">
                                 <label for="inputEmail5" class="col-md-3 col-form-label">الفرقـــــــــــــــة :</label>
                                 <div class="col-md-6">
-                                    <select class="form-control" id="inputEmail5">
+                                    <select class="form-control" id="inputEmail5" required>
                                         <option selected disabled>اختر الفرقة</option>
                                         <option>الفرقة الاولي</option>
                                         <option>الفرقة الثانية</option>
@@ -741,7 +740,7 @@
                             <div class="form-group row">
                                 <label for="inputEmail6" class="col-md-3 col-form-label">القســــــــــــــــم :</label>
                                 <div class="col-md-6">
-                                    <select class="form-control" id="inputEmail6">
+                                    <select class="form-control" id="inputEmail6" required>
                                         
                                     </select>
                                 </div>
@@ -749,7 +748,7 @@
                             <div class="form-group row">
                                 <label for="inputEmail7" class="col-md-3 col-form-label">طبيعة الدراسة :</label>
                                 <div class="col-md-6">
-                                    <select class="form-control" id="inputEmail7">
+                                    <select class="form-control" id="inputEmail7" required>
                                         
                                     </select>
                                 </div>
@@ -765,6 +764,122 @@
                                 <button class="ah" type="submit">عرض النتيجة</button>
                             </div>
                         </form>
+                    </div>
+                    <div class="theResult">
+                        <div class="desc">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">الاسم : </span></div>
+                                            <span class="value">احمد منصور محمد احمد</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">الكلية : </span></div>
+                                            <span class="value">كلية حاسبات ومعلومات </span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">القســــــــــــــــم : </span></div>
+                                            <span class="value">شعبة عام</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">الفرقـــــــــــــــة : </span></div>
+                                            <span class="value">المستوي الثالث</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion"> التقدير : </span></div>
+                                            <span class="value">B</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion"> نقطة الفصل  : </span></div>
+                                            <span class="value">57.900</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">متوسط النقاط : </span></div>
+                                            <span class="value">3.220</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">مجموع الدرجات : </span></div>
+                                            <span class="value">481.000</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">النسبة : </span></div>
+                                            <span class="value">80.170%</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">الحالة : </span></div>
+                                            <span class="value">ناجح</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">مجموع التراكمي : </span></div>
+                                            <span class="value">2725.000</span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">تقدير التراكمي : </span></div>
+                                            <span class="value"></span>
+                                        </li>
+                                        <li>
+                                            <div class="man"><span class="inforamtion">نسبة التراكمي</span></div>
+                                            <span class="value">77.860</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="year">
+                            <table class="table table-bordered table-striped table-hover ">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th>م</th>
+                                        <th>اسم المادة</th>
+                                        <th>التقدير</th>
+                                        <th> الفصل الدراسي</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Algorithm Design and Analysis</td>
+                                        <td>B</td>
+                                        <td>الفصل الدراسي الاول</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Computer Graphics</td>
+                                        <td>B-</td>
+                                        <td>الفصل الدراسي الاول</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Software Enginnering</td>
+                                        <td>B+</td>
+                                        <td>الفصل الدراسي الاول</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Computer Networks</td>
+                                        <td>B</td>
+                                        <td>الفصل الدراسي الاول</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Image Processing</td>
+                                        <td>B+</td>
+                                        <td>الفصل الدراسي الاول</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Visual Programming</td>
+                                        <td>A</td>
+                                        <td>الفصل الدراسي الاول</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

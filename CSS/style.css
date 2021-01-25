@@ -1574,8 +1574,9 @@ hr{
     } 
 }
 
-/*end section footer
-*/
+/*end section footer*/
+
+/*start section result*/
 
 .resultMain {
     background-color: #EEE;
@@ -1665,3 +1666,50 @@ hr{
     background-color: #FFF;
     color: var(--second_color);
 }
+
+.theResult{
+    margin-top: 50px;
+}
+
+.theResult .desc{
+    margin-top: 70px;
+}
+
+.theResult .desc ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.theResult .desc ul li{
+    padding: 5px 0;
+}
+
+.theResult .desc ul li .man{
+    min-width: 120px;
+    background-color: var(--second_color);
+    display: inline-block;
+}
+
+.theResult .desc ul li .man .inforamtion{
+    color: #FFF;
+    padding: 10px 5px 0 0;
+}
+
+.theResult .desc ul li .value{
+    font-weight: 700;
+    color: #555;
+}
+
+.theResult  .year{
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.theResult  .year table tbody{
+    color: var(--main_color);
+    font-weight: 600;
+}
+
+/* end section result*/

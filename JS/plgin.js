@@ -35,7 +35,6 @@ setInterval(function(){
 })
 
 window.onscroll = function(){
-    console.log(window.pageYOffset)
     if(window.pageYOffset >= 2950){
         $('.timer').countTo({form:0,to:35000,speed:2000,refreshInterval: 10,});
         $('.timer1').countTo({form:0,to:1000,speed:2000,refreshInterval: 10,});
