@@ -118,11 +118,11 @@
     text-align: right;
 }
 
- .social-media ul{
+.social-media ul{
     list-style: none;
 }
 
- .social-media ul li{
+.social-media ul li{
     display: inline-block;
     padding: 5px 10px;
     margin-left: 7px;
